@@ -14,3 +14,35 @@ a {
 * {
   box-sizing: border-box;
 }
+
+li{
+  list-style-type: none;
+}
+
+.container_li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_li > p{
+  width: 70%;
+  text-align: center;
+}
+
+.checked{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #08B2E3;
+}
+
+.checked > p{
+  width: 70%;
+  text-align: center;
+}
+
+.checked > button{
+  display: none;
+}
